@@ -4,6 +4,9 @@ gem 'rails', '3.0.5'
 gem 'sqlite3'
 gem 'haml'
 gem 'jquery-rails'
+gem 'gibbon'
+gem 'json' # gibbon req
+gem 'httparty' # gibbon req
 
 group :development, :test do
 	gem 'rspec-rails'

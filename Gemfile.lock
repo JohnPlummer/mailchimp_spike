@@ -49,6 +49,7 @@ GEM
     childprocess (0.1.7)
       ffi (~> 0.6.3)
     configuration (1.2.0)
+    crack (0.1.8)
     cucumber (0.10.0)
       builder (>= 2.1.2)
       diff-lcs (~> 1.1.2)
@@ -69,12 +70,17 @@ GEM
       rake (>= 0.8.7)
     gherkin (2.3.4)
       json (~> 1.4.6)
+    gibbon (0.1.2)
+      httparty (> 0.6.0)
+      json (> 1.4.0)
     haml (3.0.25)
     haml-rails (0.3.4)
       actionpack (~> 3.0)
       activesupport (~> 3.0)
       haml (~> 3.0)
       railties (~> 3.0)
+    httparty (0.7.4)
+      crack (= 0.1.8)
     i18n (0.5.0)
     jquery-rails (0.2.7)
       rails (~> 3.0)
@@ -154,9 +160,12 @@ DEPENDENCIES
   capybara
   cucumber-rails
   factory_girl_rails
+  gibbon
   haml
   haml-rails
+  httparty
   jquery-rails
+  json
   launchy
   rails (= 3.0.5)
   rspec-rails
